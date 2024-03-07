@@ -11,27 +11,45 @@ package org.example.control_flow.condition
  */
 fun main() {
 
-    val magacaCabitaanka = "furulaato"
+    val magacaCabitaanka = readln() // readln() waa hab aad qofka xogta ugu qaadeysid
     val lacagtaCabitaanka = 0.5
-    val lacagtaMacmiilka = 0.25
+    val lacagtaMacmiilka = readln().toDouble()
 
     when (magacaCabitaanka) {
+        // Hadii macmiilka lacagta saxda ah bixin
+        // waxaa loo sheegi doonaa lacagta cabitaanka ku fadhiyo
         "furulaato" -> {
-            // usheeg dalaabkaas in la heli karo
+            if (lacagtaMacmiilka != lacagtaCabitaanka) {
+                println("Macmiil lacagta $magacaCabitaanka waa $lacagtaCabitaanka")
+            } else {
+                println("Macmiil dalabkagii $magacaCabitaanka waa kan.")
+            }
         }
-        "cambe" -> {}
-        "caana loos" -> {}
-        "qare" -> {}
+        "cambe" -> {
+            if (lacagtaMacmiilka != lacagtaCabitaanka) {
+                println("Macmiil lacagta $magacaCabitaanka waa $lacagtaCabitaanka")
+            } else {
+                println("Macmiil dalabkagii $magacaCabitaanka waa kan.")
+            }
+        }
+        "caana loos" -> {
+            if (lacagtaMacmiilka != lacagtaCabitaanka) {
+                println("Macmiil lacagta $magacaCabitaanka waa $lacagtaCabitaanka")
+            } else {
+                println("Macmiil dalabkagii $magacaCabitaanka waa kan.")
+            }
+        }
+        "qare" -> {
+            if (lacagtaMacmiilka != lacagtaCabitaanka) {
+                println("Macmiil lacagta $magacaCabitaanka waa $lacagtaCabitaanka")
+            } else {
+                println("Macmiil dalabkagii $magacaCabitaanka waa kan.")
+            }
+        }
         else -> {
             // usheeg in dalaabkaas la heli karin
+            println("Macmiilka dalabkaas lama heli karo.")
         }
-    }
-
-    if (lacagtaMacmiilka == lacagtaCabitaanka) {
-        // wuxuu ka gadaa cabitaanaka
-    } else {
-        // Hadii macmiilka lacagta saxda ah bixin
-        // waxaa loo sheegi doonaa inuusan heysan lacag ku filan
     }
 
 }
