@@ -10,15 +10,20 @@ package org.example.control_flow.condition
  * hadii kalena usheego inuu heli karin.
  */
 fun main() {
-
-    val magacaCabitaanka = readln() // readln() waa hab aad qofka xogta ugu qaadeysid
     val lacagtaCabitaanka = 0.5
-    val lacagtaMacmiilka = readln().toDouble()
+
+    println("Macmiil soo dhawoow")
+    print("Dalabkaaga cabitaan ii sheeg: ")
+    val magacaCabitaanka = readln() // readln() waa hab aad qofka xogta ugu qaadeysid
 
     when (magacaCabitaanka) {
         // Hadii macmiilka lacagta saxda ah bixin
         // waxaa loo sheegi doonaa lacagta cabitaanka ku fadhiyo
         "furulaato" -> {
+            println("Qiimaha $magacaCabitaanka waa $$lacagtaCabitaanka")
+            print("Bixi biilka: $")
+            val lacagtaMacmiilka = readln().toDouble()
+
             if (lacagtaMacmiilka != lacagtaCabitaanka) {
                 println("Macmiil lacagta $magacaCabitaanka waa $lacagtaCabitaanka")
             } else {
@@ -26,6 +31,10 @@ fun main() {
             }
         }
         "cambe" -> {
+            println("Qiimaha $magacaCabitaanka waa $$lacagtaCabitaanka")
+            print("Bixi biilka: $")
+            val lacagtaMacmiilka = readln().toDouble()
+
             if (lacagtaMacmiilka != lacagtaCabitaanka) {
                 println("Macmiil lacagta $magacaCabitaanka waa $lacagtaCabitaanka")
             } else {
@@ -33,6 +42,10 @@ fun main() {
             }
         }
         "caana loos" -> {
+            println("Qiimaha $magacaCabitaanka waa $$lacagtaCabitaanka")
+            print("Bixi biilka: $")
+            val lacagtaMacmiilka = readln().toDouble()
+
             if (lacagtaMacmiilka != lacagtaCabitaanka) {
                 println("Macmiil lacagta $magacaCabitaanka waa $lacagtaCabitaanka")
             } else {
@@ -40,6 +53,10 @@ fun main() {
             }
         }
         "qare" -> {
+            println("Qiimaha $magacaCabitaanka waa $$lacagtaCabitaanka")
+            print("Bixi biilka: $")
+            val lacagtaMacmiilka = readln().toDouble()
+
             if (lacagtaMacmiilka != lacagtaCabitaanka) {
                 println("Macmiil lacagta $magacaCabitaanka waa $lacagtaCabitaanka")
             } else {
