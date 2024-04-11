@@ -20,7 +20,7 @@ package org.example.functions
  *                     usheegi doono soo celi (return) kadib qiimaha.
  * F.G: hadii uu function-ka uu wax qiimo soo celinaayo waa inaad soo celisaa.
  */
-fun functionName(parameters: List<ParameterType>): ReturnType {
+/* fun functionName(parameters: List<ParameterType>): ReturnType {
     // Function body
     return returnValue
-}
+} */
