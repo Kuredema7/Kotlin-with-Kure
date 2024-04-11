@@ -1,8 +1,5 @@
 package org.example.functions
 
-import kotlin.math.exp
-import kotlin.math.sqrt
-
 fun main() {
     val numberOne = 5
     val numberTwo = 6
