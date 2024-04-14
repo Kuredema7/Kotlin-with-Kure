@@ -1,4 +1,4 @@
-package org.example.control_flow
+package control_flow.loops
 
 fun main() {
     // Si uu noogu sahlanaado code-ka
